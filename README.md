@@ -1,6 +1,3 @@
-# ircz
-A clone of http://ircz.de. 
-
 ## Introduction
 This script was written in an attempt to clone [ircz.de](http://ircz.de/random), the idea was to copy the idea (with permission of the creator), and then hopefully create a nicer interface and integrate new features such as the ability to select and add new channels to the feed. Unfortunately I got side tracked once the project was working, so all I have is a very basic clone!
 
