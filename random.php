@@ -1,23 +1,9 @@
-<?php
-  //$Channels = $_POST['Channel'];
-  //$N = count($Channels);
-  //for($i=0; $i < $N; $i++){
-  //}
-?>
-
 <html>
   <head>
     <title>Random Image</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
   <body><center>
-    <!--<div id=topmenu>
-      <form action="random.php" method="post">
-These don't do anything yet:
-        <input type="checkbox" name="Channel[]" value="#Reddit" checked="checked"/> #Perl
-        <input type="checkbox" name="Channel[]" value="#perl" checked="checked"/> #Reddit 
-        <input type="checkbox" name="Channel[]" value="#Ubuntu" checked="checked"/> #Ubuntu
-        <input type="checkbox" name="Channel[]" value="##freebsd" checked="checked"/> #FreeBSD<br><br>-->
         <?php
           include("resources/database.php");
           $result = mysql_query("SELECT * FROM images ORDER BY RAND() LIMIT 1");
