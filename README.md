@@ -1,5 +1,4 @@
 # ircz
-
 A clone of http://ircz.de. 
 
 ## Introduction
