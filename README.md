@@ -1,7 +1,6 @@
 ## Introduction
 This script was written in an attempt to clone [ircz.de](http://ircz.de/random), the idea was to copy the idea (with permission of the creator), and then hopefully create a nicer interface and integrate new features such as the ability to select and add new channels to the feed. Unfortunately I got side tracked once the project was working, so all I have is a very basic clone!
 
-[You can view the site in action here](http://squixy.co.uk/ircz/).
 
 # Requirements
 This script uses a perl bot to listen in on the user defined channels. The perl script uses the following modules:
